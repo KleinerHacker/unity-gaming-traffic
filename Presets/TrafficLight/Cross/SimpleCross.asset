@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f56de041e14faa971b84d05a69b607, type: 3}
+  m_Name: SimpleCross
+  m_EditorClassIdentifier: 
+  references:
+  - name: Main Street
+    uuid: f8f89d98-95a6-4ef3-8d0e-62c563ce7ca3
+  - name: Side Street
+    uuid: 46e08c47-ce53-42b7-89c7-a54c70edcce0
+  phases:
+  - name: Main Free
+    showTime: 20
+    behaviors:
+    - name: Side Stopp
+      trafficLightGroupReference: 46e08c47-ce53-42b7-89c7-a54c70edcce0
+      targetState: 0
+    - name: Main Go
+      trafficLightGroupReference: f8f89d98-95a6-4ef3-8d0e-62c563ce7ca3
+      targetState: 1
+  - name: Side Free
+    showTime: 10
+    behaviors:
+    - name: Main Stop
+      trafficLightGroupReference: f8f89d98-95a6-4ef3-8d0e-62c563ce7ca3
+      targetState: 0
+    - name: Side Go
+      trafficLightGroupReference: 46e08c47-ce53-42b7-89c7-a54c70edcce0
+      targetState: 1

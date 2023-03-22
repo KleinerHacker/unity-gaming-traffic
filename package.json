@@ -1,0 +1,23 @@
+{
+  "name": "org.pcsoft.gaming.traffic",
+  "version": "1.0.0",
+  "displayName": "Unity Gaming Traffic",
+  "description": "Traffic Tools for Unity",
+  "unity": "2021.3",
+  "keywords": [
+    "traffic",
+    "light",
+    "gaming",
+    "road"
+  ],
+  "dependencies": {
+    "org.pcsoft.animation": "1.2.7",
+    "org.pcsoft.editor-ex": "1.1.17",
+    "org.pcsoft.common-ex": "1.1.11"
+  },
+  "author": {
+    "name": "Pfeiffer C Soft",
+    "email": "kl3in3rhack3r@gmail.com",
+    "url": "https://github.com/KleinerHacker/unity-gaming-traffic"
+  }
+}
