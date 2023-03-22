@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf8326175bd49e0b82c3e888083a164, type: 3}
+  m_Name: GreenYellowOnlyLight
+  m_EditorClassIdentifier: 
+  greenToRed:
+  - lamps:
+    - lamp: 2
+      state: 1
+    - lamp: 1
+      state: 0
+    postDelay: 3
+  - lamps:
+    - lamp: 1
+      state: 1
+    postDelay: 3
+  redToGreen:
+  - lamps:
+    - lamp: 2
+      state: 0
+    postDelay: 0
+  outOfOrder:
+  - lamps:
+    - lamp: 1
+      state: 0
+    postDelay: 1
+  - lamps:
+    - lamp: 1
+      state: 1
+    postDelay: 1

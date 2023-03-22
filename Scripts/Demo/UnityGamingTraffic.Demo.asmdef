@@ -1,0 +1,16 @@
+{
+  "name": "UnityGamingTraffic.Demo",
+  "rootNamespace": "UnityGamingTraffic.Demo",
+  "references": [
+    "GUID:bdc48b6f5f2dc6a46bd374c632179399"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
